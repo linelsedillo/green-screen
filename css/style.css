@@ -68,3 +68,9 @@ body { background: #02556f;}
 }
 .bg-blue {background-color: #0d6efd !important;}
 .bg-green {background-color: #198754 !important;}
+
+@media screen and (max-width: 540px) {
+    #main { width: auto;}
+    video { width: 100%;}
+    .btn-wrap { margin-bottom: 30px;}
+}
